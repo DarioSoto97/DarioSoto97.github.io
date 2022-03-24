@@ -191,6 +191,9 @@ article img{
     border-radius: 6px;
     overflow: hidden;
     margin-left: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-top: 8px;
 }
 
 .contenedor-aside aside img{
@@ -218,4 +221,74 @@ article img{
 
 .contenedor-aside aside button:hover{
     opacity: 0.9;
+}
+
+/** Pie de página **/
+
+.contenedor-footer{
+    width: 100%;
+    padding: 40px 0px;
+    background: #f7f7f7;
+    margin-top: 40px;
+}
+
+.contenedor-footer footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contenedor-footer footer .logo-footer{
+    text-align: center;
+}
+
+.contenedor-footer footer .logo-footer img{
+    width: 100px;
+}
+
+.contenedor-footer footer .redes-sociales{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.contenedor-footer footer .redes-sociales .icono-redes{
+    font-size: 20px;
+    margin: 20px;
+    background-color: #efefef;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #a2a2a2;
+}
+
+.contenedor-footer footer .redes-sociales .fa-twitter:hover{
+    background: #00acee;
+    color: white;
+}
+
+.contenedor-footer footer .redes-sociales .fa-xbox:hover{
+    background: #0e7a0d;
+    color: white;
+}
+
+.contenedor-footer footer .redes-sociales .fa-instagram:hover{
+    background: linear-gradient(to top right, #fccc63, #fbad50, #e95950, #cd486b, #bc2a8d, #8a3ab9, #4c68d7 );
+    color: white;
+}
+
+.contenedor-footer hr{
+    margin-top: 10px;
+    border: none;
+    height: 2px;
+    color: #8e8e8e;
+}
+
+.contenedor-footer h4{
+    text-align: center;
+    margin-top: 20px;
+    color: #8e8e8e;
+    font-weight: 500;
 }
