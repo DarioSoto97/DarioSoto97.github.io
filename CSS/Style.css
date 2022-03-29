@@ -351,12 +351,17 @@ article img{
 
 @media screen and (max-width: 800px){
 
+    body{
+        overflow-x: hidden;
+    }
+    
     .container-all{
         transition: all 300ms cubic-bezier(1,0,0,1);
     }
 
     .clic-container-all{
         transform: translateX(300px);
+
     }
 
     .menu{
